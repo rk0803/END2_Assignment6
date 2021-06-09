@@ -32,7 +32,7 @@ I was suspecting it was stuck in some local minima and was not able to move from
 The output of both the models is presented as<br/>
 Tweet: 'If', 'you', 'can', 'find', 'a', 'better', 'Obama', 'gif', 'than', 'this', 'one', ',', 'I', "'m", 'quitting', 'Twitter', '.', 'http://t.co/cNr0Sr3c'
 |Word|Encoded|Decoded|
----------------------
+|----|--------|------|
 If  |tensor([-0.1219,  0.6393,  0.8072,  0.0501, .....])|tensor([-0.5437,  0.0383, -0.3279,  0.2949,......])
 you |tensor([-1.0572e-01, -3.7647e-01,  3.2657e-01, -3.5636e-01,...])|tensor([-0.4573,  0.2999, -0.4054,  0.4770, -0.6636,....])
 ... |....|...
