@@ -1,6 +1,6 @@
 # END2_Assignment6
 ### a note on file names
-*Model A*: ** 61_RNN** This notebook contains the following architecture of Model A.  <br/>
+*Model A*: **61_RNN** This notebook contains the following architecture of Model A.  <br/>
 
 *Model B*: **62_LSTMCell** This notebook contains the following architecture of the model B.<br/>
 
@@ -17,7 +17,7 @@ Two different appraoches for this encoder/decoder Model were implemented (Model 
 #### Model A 
 ![image](https://user-images.githubusercontent.com/82941475/121353803-e2384200-c94b-11eb-8141-6d84eaa1a0d1.png)
 #### Model B
-
+![image](https://user-images.githubusercontent.com/82941475/121353924-0005a700-c94c-11eb-96cc-9a0b9f6a37c8.png)
 ### Salient Features (Not Visible in the image)
 #### Model A: 
 Validation Accuracy:
@@ -30,8 +30,8 @@ I was suspecting it was stuck in some local minima and was not able to move from
 
 ### Final Output
 The output of both the models is presented as
-Tweet: ['If', 'you', 'can', 'find', 'a', 'better', 'Obama', 'gif', 'than', 'this', 'one', ',', 'I', "'m", 'quitting', 'Twitter', '.', 'http://t.co/cNr0Sr3c']
-Word|Encoded|Decoded|
+Tweet: 'If', 'you', 'can', 'find', 'a', 'better', 'Obama', 'gif', 'than', 'this', 'one', ',', 'I', "'m", 'quitting', 'Twitter', '.', 'http://t.co/cNr0Sr3c'
+|Word|Encoded|Decoded|
 ---------------------
 If  |tensor([-0.1219,  0.6393,  0.8072,  0.0501, .....])|tensor([-0.5437,  0.0383, -0.3279,  0.2949,......])
 you |tensor([-1.0572e-01, -3.7647e-01,  3.2657e-01, -3.5636e-01,...])|tensor([-0.4573,  0.2999, -0.4054,  0.4770, -0.6636,....])
