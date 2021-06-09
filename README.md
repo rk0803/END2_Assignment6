@@ -1,8 +1,8 @@
 # END2_Assignment6
 ### a note on file names
-*Model A*: **61_RNN** This notebook contains the following architecture of Model A.  <br/>
+*Model A*: **61_RNN** This notebook contains the implementation of  Model A.  <br/>
 
-*Model B*: **62_LSTMCell** This notebook contains the following architecture of the model B.<br/>
+*Model B*: **62_LSTMCell** This notebook contains the implementation of odel B.<br/>
 
 ## Background
 In this assignment we were asked to build an encoder/decoder model for Tweets dataset, where <br/>
@@ -20,16 +20,16 @@ Two different appraoches for this encoder/decoder Model were implemented (Model 
 ![image](https://user-images.githubusercontent.com/82941475/121353924-0005a700-c94c-11eb-96cc-9a0b9f6a37c8.png)
 ### Salient Features (Not Visible in the image)
 #### Model A: 
-Validation Accuracy:
+Validation Accuracy: 73.21% <br/>
 
 #### Model B:
-Validation Accuracy:
+Validation Accuracy: 68.30% <br/>
 A typicalilty which was happening with this model was that both training and validation accuracy would soon reach 
 69.21% and 68.30% respectively and would not change after that inspite of increasing the epochs. Though sometimes during the training phase, it was observed that after 50 or so epochs, it will change slightly only to settle back there.
 I was suspecting it was stuck in some local minima and was not able to move from there.
 
 ### Final Output
-The output of both the models is presented as
+The output of both the models is presented as<br/>
 Tweet: 'If', 'you', 'can', 'find', 'a', 'better', 'Obama', 'gif', 'than', 'this', 'one', ',', 'I', "'m", 'quitting', 'Twitter', '.', 'http://t.co/cNr0Sr3c'
 |Word|Encoded|Decoded|
 ---------------------
