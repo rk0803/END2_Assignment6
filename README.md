@@ -15,7 +15,7 @@ print the outputs for each step of the decoder.
 ### Architecture
 Two different appraoches for this encoder/decoder Model were implemented (Model A and Model B) as depicted below:
 #### Model A 
-
+![image](https://user-images.githubusercontent.com/82941475/121353803-e2384200-c94b-11eb-8141-6d84eaa1a0d1.png)
 #### Model B
 
 ### Salient Features (Not Visible in the image)
