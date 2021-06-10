@@ -2,7 +2,7 @@
 ### a note on file names
 *Model A*: **61_RNN** This notebook contains the implementation of  Model A.  <br/>
 
-*Model B*: **62_LSTMCell** This notebook contains the implementation of odel B.<br/>
+*Model B*: **62_LSTMCell** This notebook contains the implementation of Model B.<br/>
 
 ## Background
 In this assignment we were asked to build an encoder/decoder model for Tweets dataset, where <br/>
