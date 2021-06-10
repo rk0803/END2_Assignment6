@@ -5,11 +5,11 @@
 *Model B*: **62_LSTMCell** This notebook contains the implementation of Model B.<br/>
 
 ## Background
-In this assignment we were asked to build an encoder/decoder model for Tweets dataset, where <br/>
-the encoder: an RNN/LSTM layer takes the words in a sentence one by one and finally converts them into a single vector.<br/>
-This single vector is then sent to another RNN/LSTM that also takes the last prediction as its second input. <br/>
-Then we take the final vector from this Cell and send this final vector to a Linear Layer and make the final prediction.<br/>
-Once the model is trained, take one sentence, print the outputs of the encoder for each step and<br/>
+In this assignment we were asked to build an encoder/decoder model for Tweets dataset, where 
+the encoder: an RNN/LSTM layer takes the words in a sentence one by one and finally converts them into a single vector.
+This single vector is then sent to another RNN/LSTM that also takes the last prediction as its second input.
+Then we take the final vector and send to a Linear Layer and make the final prediction.
+Once the model is trained, take one sentence, print the outputs of the encoder for each step and
 print the outputs for each step of the decoder. 
 ## Approach
 ### Architecture
